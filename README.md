@@ -219,7 +219,7 @@ projects = {
 
 ### Post-Deployment Task for Destroy Pipeline
 
-The destroy pipeline will update the Terraform state file with the project which has been destroyed. However, there is no programmatic way currently to delete the entry from the repository. As the code for the project still recides in the repository Terraform [Deploy Pipeline](#creating-deploy-pipeline) will try to recreate the project next time time it runs. Please delete the project entry from **local.tf** file and push the updated code to the repository. As you can see, **project-1** has been deleted from the file.
+The destroy pipeline will update the Terraform state file with the project which has been destroyed. However, there is no programmatic way currently in this code base to delete the entry from the repository file (**local.tf**). As the code for the project still recides in the repository Terraform [Deploy Pipeline](#creating-deploy-pipeline) will try to recreate the project next time time it runs. Please delete the project entry from **local.tf** file and push the updated code to the repository. As you can see, **project-1** has been deleted from the file.
 
 ```
 projects = {
