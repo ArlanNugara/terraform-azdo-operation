@@ -1,6 +1,6 @@
 # Introduction
 
-To be filled by **Arlan / Anubhav**
+**Coming Soon**
 
 # Prerequisites
 
